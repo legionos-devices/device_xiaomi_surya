@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
     DevicesOverlay \
     DevicesAndroidOverlay
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
      frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/handheld_core_hardware.xml
