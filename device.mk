@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
     DevicesAndroidOverlay
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # Permissions
 PRODUCT_COPY_FILES += \
