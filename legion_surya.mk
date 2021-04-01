@@ -12,6 +12,10 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 # GApps
 TARGET_GAPPS_ARCH := arm64
 
+# LegionOS
+LEGION_BUILD_TYPE := OFFICIAL
+LEGION_MAINTAINER := AmJith
+
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
