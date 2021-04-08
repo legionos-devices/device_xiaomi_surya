@@ -96,7 +96,7 @@ void set_device_props(const string fingerprint, const string description,
 void load_device_properties() {
     string hwname = GetProperty("ro.boot.hwname", "");
 
-    string fingerprint = "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys";
+    string fingerprint = "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys";
     string description = "redfin-user 11 RQ1A.210205.004 7038034 release-keys";
 
     if (hwname == "surya") {
